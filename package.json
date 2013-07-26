@@ -1,0 +1,23 @@
+{
+  "author": "Francisco Gutierrez <freefrancisco@gmail.com>",
+  "name": "coffeestructures",
+  "description": "CoffeeScript Data Structures",
+  "version": "0.0.1",
+  "repository": {"type": "git", "url": "git@github.com:freefrancisco/coffeestructures.git"},
+  "main": "lib/main.js",
+  "scripts": {
+    "build":      "coffee --compile --output lib/ src/",
+    "prepublish": "coffee --compile --output lib/ src/",
+    "test":       "cake test"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "coffee-script": "*"
+  },
+  "keywords": ["data-structures", "structures", "coffeescript", "set", "sortedset"]
+}
