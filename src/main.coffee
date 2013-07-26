@@ -1,4 +1,5 @@
-{Set} = require? './set'
+{Set, SortedSet} = require? './set'
 
 
 @Set = Set
+@SortedSet = SortedSet
