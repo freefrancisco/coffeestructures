@@ -1,4 +1,4 @@
-{Set} = require './set'
+{Set} = require? './set'
 
 
 @Set = Set
