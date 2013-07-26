@@ -28,7 +28,6 @@ class Set
     @toArray().length
 
   toArray: ->
-    console.log "calling to array"
     (keys for keys of @_vals)
     
   toString: ->
